@@ -838,7 +838,7 @@ class Usuario {
         ///////////////////////////
         Connection connection = null;
         try {
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/bd_enlaces", "root", "");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3307/bd_enlaces","root","root");
             System.out.println("- Conexion CORRECTA a la BD");
 
         } catch (SQLException e) {
