@@ -364,7 +364,7 @@ public class Ejercicio_15_1 extends javax.swing.JFrame {
 
         Connection connection = null;
         try {
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/bd_enlaces","root","");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3307/bd_enlaces","root","root");
             System.out.println("- Conexion CORRECTA a la BD");
             
         } catch (SQLException e) {
@@ -562,7 +562,7 @@ public class Ejercicio_15_1 extends javax.swing.JFrame {
 
         Connection connection = null;
         try {
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/bd_enlaces","root","");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3307/bd_enlaces","root","root");
             System.out.println("- Conexion CORRECTA a la BD");
             
         } catch (SQLException e) {
@@ -630,7 +630,7 @@ public class Ejercicio_15_1 extends javax.swing.JFrame {
 
         Connection connection = null;
         try {
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/bd_enlaces","root","");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3307/bd_enlaces","root","root");
             System.out.println("- Conexion CORRECTA a la BD");
             
         } catch (SQLException e) {
@@ -800,7 +800,7 @@ class Usuario {
          ///////////////////////////
          Connection connection = null;
          try {
-         connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/bd_enlaces","root","");
+         connection = DriverManager.getConnection("jdbc:mysql://localhost:3307/bd_enlaces","root","root");
          System.out.println("- Conexion CORRECTA a la BD");
 
          } catch (SQLException e) {
@@ -978,7 +978,7 @@ class Enlace {
             ///////////////////////////
             Connection connection = null;
             try {
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/bd_enlaces","root","");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3307/bd_enlaces","root","root");
             System.out.println("- Conexion CORRECTA a la BD");
 
             } catch (SQLException e) {
